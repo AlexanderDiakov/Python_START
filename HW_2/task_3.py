@@ -16,3 +16,10 @@
 3
 6.62
 """
+
+num = int(input("Введите число: "))
+
+new_list = []
+for i in range(1, num + 1):
+    new_list.append((1 + 1 / i) ** i)
+print(round(sum(new_list), 2))
