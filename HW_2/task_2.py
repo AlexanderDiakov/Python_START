@@ -8,3 +8,10 @@
 4
 [1, 2, 6, 24]
 """
+
+num = int(input("Введите число: "))
+
+new_list = [1]
+for i in range(1, num):
+    new_list.append((i + 1) * new_list[i - 1])
+print(new_list)
