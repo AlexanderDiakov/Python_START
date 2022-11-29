@@ -11,3 +11,11 @@
 0.56
 11
 """
+
+num = input("Введите вещественное число: ")
+
+sum_num = 0
+for i in num:
+    if i.isdigit():
+        sum_num += int(i)
+print(sum_num)
