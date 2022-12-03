@@ -13,3 +13,11 @@
 [2, 3, 5, 6]
 [12, 15]
 """
+
+import random
+
+num = int(input('Введите число '))
+
+new_list = [random.randint(0, num) for i in range(num)]
+print(new_list)
+print([new_list[i] * new_list[-1 - i] for i in range((len(new_list) + 1) // 2)])
