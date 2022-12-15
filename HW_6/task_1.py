@@ -11,7 +11,7 @@ action_dict = {
     '+': lambda a, b: float(a) + float(b),
     '-': lambda a, b: float(a) - float(b),
     '/': lambda a, b: float(a) / float(b),
-    '*': lambda a, b: float(a) * float(b),
+    '*': lambda a, b: float(a) * float(b)
 }
 
 
