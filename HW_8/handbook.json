@@ -1,0 +1,18 @@
+[
+  {
+    "first_name": "Александр",
+    "last_name": "Дьяков",
+    "birth_day": "1993",
+    "phone": "124242424",
+    "class": "11",
+    "id": 1
+  },
+  {
+    "first_name": "Иван",
+    "last_name": "Иванов",
+    "birth_day": "2022",
+    "phone": "221132424",
+    "class": "4",
+    "id": 2
+  }
+]
